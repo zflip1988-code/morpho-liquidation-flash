@@ -1,13 +1,16 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+next.user-config.*
+
+# Environment variables
+.env*.local
+
+# Common ignores
 node_modules
-.env
-coverage
-coverage.json
-typechain
-
-#Hardhat files
-cache
-artifacts
-dist
-
-# AWS SAM files
-.aws-sam
+.next/
+.DS_Store
